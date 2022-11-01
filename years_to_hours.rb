@@ -6,7 +6,7 @@ puts "That's #{hours} hours."
 #converting decades to minutes
 puts "Enter a number of decades"
 minutes = gets.chomp
-minutes minutes.to_i
+minutes = minutes.to_i
 minutes = minutes * 10 * 365 * 24 * 60
 puts "That's #{minutes} minutes"
 #converting a person's age in years to seconds
