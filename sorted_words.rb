@@ -12,6 +12,4 @@ end
 #sort the array using the sort method and print it out
 
 puts "You entered these words: "
-words.sort.each do |item| 
-    puts item
-end
+puts words.sort
